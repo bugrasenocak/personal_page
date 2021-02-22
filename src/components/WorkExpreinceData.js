@@ -8,5 +8,7 @@ export const WorkExpreinceData = [
     about_role:
       "I'm working remotely from Turkey. I'm doing web development related tasks and work HTML, CSS, JavaScript. You can see all my tasks in my GitHub repository.",
     cName: "card p-4",
+    begin_date: "December 2020",
+    end_date: "Current",
   },
 ];

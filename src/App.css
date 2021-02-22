@@ -38,6 +38,7 @@ body {
   color: #fff;
 }
 .about h1,
+h4,
 h5,
 h6 {
   background-color: red;
@@ -55,11 +56,17 @@ h6 {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 .about h1 {
   font-size: 3rem;
+}
+.about h5 {
+  font-size: 1.5rem;
+}
+.about h6 {
+  font-size: 1.2rem;
 }
 .about p {
   background-color: red;

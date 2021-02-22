@@ -33,9 +33,12 @@ function About() {
                       className="img-fluid rounded-circle p-2"
                     />
                   </div>
-                  <div className="col-md-3 p-5 mt-3 about-text">
-                    <h5>{item.title}</h5>
-                    <h6>{item.role}</h6>
+                  <div className="col-md-3 p-5 about-text">
+                    <h4>{item.title}</h4>
+                    <h5>{item.role}</h5>
+                    <h6>
+                      {item.begin_date} - {item.end_date}
+                    </h6>
                   </div>
                   <div className="col-md-6 p-4">
                     <p>{item.about_role}</p>
