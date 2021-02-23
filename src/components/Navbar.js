@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
 import { IconContext } from "react-icons";
-
+import profile from "../profile.jpeg";
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
 
@@ -35,7 +35,7 @@ function Navbar() {
             </li>
             <li className="nav-text-component m-4">
               <img
-                src="https://media-exp1.licdn.com/dms/image/C4E03AQED8-Zfdolqvg/profile-displayphoto-shrink_400_400/0/1600546323730?e=1619049600&v=beta&t=vn2jkFJuFyuhZCXbR9FJNxrmbxL_vYUD_goOyIE1Mmk"
+                src={profile}
                 className="img-fluid rounded-circle"
                 style={{ width: "100px" }}
               />
