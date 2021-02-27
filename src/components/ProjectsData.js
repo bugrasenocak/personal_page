@@ -1,6 +1,14 @@
 import React from "react";
 export const ProjectsData = [
   {
+    title: "Corona Status | Turkey",
+    description:
+      "This application shows since March 11 within Turkey coronavirus number of cases, the number of recovered, the number of deaths. I used react and Covid-19 API while making this app",
+    github_link: "https://github.com/yigiterdev/corona-status",
+    used_tech: ["React", "Bootstrap"],
+    live_demo: "https://coronastatusturkey.netlify.app/",
+  },
+  {
     title: "HKV Yapı",
     description:
       "My first freelance project. Which I made with HTML, SCSS, Bootstrap, JavaScript.",
