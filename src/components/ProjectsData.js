@@ -28,9 +28,9 @@ export const ProjectsData = [
     title: 'CodePen Clone',
     description:
       'This project is a CodePen Clone. I made this project to improve myself at React. This project was made with React.',
-    github_link: 'https://codepen-clone-yigiterdev.vercel.app/',
+    github_link: 'https://github.com/yigiterdev/codepen-clone',
     used_tech: ['React'],
-    live_demo: '#',
+    live_demo: 'https://codepen-clone-yigiterdev.vercel.app/',
   },
   {
     title: 'React Quiz',
