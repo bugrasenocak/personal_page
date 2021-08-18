@@ -38,6 +38,7 @@ function Navbar() {
                 src={profile}
                 className="img-fluid rounded-circle"
                 style={{ width: "100px" }}
+                alt="Profile Image"
               />
             </li>
             {SidebarData.map((item, index) => {
